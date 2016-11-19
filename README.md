@@ -1,24 +1,33 @@
 # Computing Essentials for Scientists and Engineers
 
+These classes aim to teach concepts and habits that make programming a more simplified and comfortable process for those who did not study
+computer science. 
+
+The presenter will use slideshows and read/write/manipulate files and programs during the sessions. Class participation is encouraged. 
 
 
-## Session 1 - Files, Programs and Directories
+No prerequisites. Advanced signup required. 3 Sessions (first session is helpful for subsequent ones):
+
+- Tue 24 Jan, 1800-1900
+- Wed 25 Jan, 1800-1900
+- Thu 26 Jan, 1800-1900
+
+## Session 1 - Storage and Interpretation of Files 
 
 Content: 
 
-- Information storage. ASCII, dat files, etc. 
+- Information storage. ASCII, UTF, binary dat files, etc. 
 - Source code, machine code, and in between. 
-- File types. Everything is binary, it just depends how you use/interpret it. 
-- The PATH environment variable. 
-- Calling executables from the terminal/command line. NO SPACES IN YOUR DIRECTORIES PLEASE!
+- File types. Everything is binary, it just depends how programs use/interpret it. 
+- The PATH environment variable and calling executables from the terminal/command line.
+- Virtual environments in Python. 
 
 Learning Outcomes:
 
 - Understand the common basis of all files and that interpretation is contextual. 
 - Know the directory structure of your OS
-- Not rely/be overly dependent on shortcuts and know where your programs are.  
+- Know where your programs are or should be.  
 - Feel comfortable dealing with all file types and place less importance on file extensions.
-- Keep a clean logical workflow.  
 - Understand why program installers exist and why you usually don't just download the final program.
 - Know what is happening when you are looking at a 'corrupt' (not actually corrupt) file.
 
@@ -26,7 +35,7 @@ Learning Outcomes:
 
 Content: 
 
-- What is a programming language? 
+- What is/isn't a programming language? 
 - Compiled vs Interpreted. Common misconceptions.  
 - Low level - C
 - High level - Python/Matlab
@@ -43,7 +52,7 @@ Learning Outcomes:
 
 Content:
 
-- Importance of version control and collaborative softwave development
+- Importance of version control and collaborative software development
 - Tracking changes using Git
 	- The git workflow
 	- Initializing git repository
@@ -62,21 +71,3 @@ Learning Outcomes:
 - Understand that modern software development is collaborative and built upon the work of others. 
 - Understand the importance of version control and feel comfortable with basic git commands. 
 - Want to use git and Github for your future projects.
-
-
-## Session 4 - Ergonomics and economics of modern computing
-
-Content: 
-
-- Cloud computing and SAAS.
-- AI and Neural networks 
-- CPUs and GPUs/parallel computing.
-- Security and encryption - RSA 
-- Operating systems. Differences and a brief history. 
-
-
-Learning Outcomes:
-
-- Understand what doing/storing things 'on the cloud' means.
-- Understand the significance of AI, SAAS, and deep learning to the future of software.
-- Choose computers, operating systems, and software to suit one's own needs. 
