@@ -37,6 +37,7 @@ Content:
 
 - What is/isn't a programming language? 
 - Compiled vs Interpreted. Common misconceptions.  
+- Programming with and without integrated development environments (IDEs)
 - Low level - C
 - High level - Python/Matlab
 - Multiplatform development - Java
