@@ -12,6 +12,14 @@ No prerequisites. Advanced signup required. 3 Sessions (first session is helpful
 - Wed 25 Jan, 1800-1900
 - Thu 26 Jan, 1800-1900
 
+Preparation: 
+
+- Download and install git: https://git-scm.com/downloads
+- Download and install the C Python interpreter (Python 3.6): https://www.python.org/downloads/
+- Download `get-pip.py` and install pip: https://pip.pypa.io/en/stable/installing/
+- Make an account on github: https://github.com/
+- Ensure you have a user account on your operating system with no spaces. If your current one has spaces, make a new one. 
+
 ## Session 1 - Storage and Interpretation of Files 
 
 Content: 
