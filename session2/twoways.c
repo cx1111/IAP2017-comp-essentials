@@ -3,7 +3,9 @@
 #include <malloc.h>
 
 
-void main(){
+int main(){
+
+    // A matrix multiplaction example. Multiply matrix1 and matrix2. 
 
     int length = 1000;
     int i, j, k, m;
@@ -30,7 +32,9 @@ void main(){
         for (int k = 0; k < length; k++){
             temp = 0;
             for (int m = 0; m < length; m++){
-                temp = temp + matrix1[j][m] * matrix2[m][k];
+                // here in the inner loop we are sweeping m. Every time m changes, we are getting the
+                // kth element from a different array/portion of matrix2
+                temp = temp + matrix1[j][m] * matrix2[m][k]; 
         }
         matrix3[j][k] = temp;
         }
@@ -48,6 +52,8 @@ void main(){
         for (int k = 0; k < length; k++){
             temp = 0;
             for (int m = 0; m < length; m++){
+                // here in the inner loop we are sweeping m. Every time m changes, we are getting the
+                // next consecurive element from the same kth array/portion of matrix2
                 temp = temp + matrix1[j][m] * matrix2[k][m];
         }
         matrix3[j][k] = temp;
@@ -57,4 +63,5 @@ void main(){
     msec = difference * 1000 / CLOCKS_PER_SEC;
 
     printf("Loop 2 time: %d ms\n", msec);
+    return 0;
 }
