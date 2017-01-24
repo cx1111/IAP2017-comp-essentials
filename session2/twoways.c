@@ -26,7 +26,7 @@ int main(){
 
 
 
-    // First Loop - non-contiguous access of matrix2
+    // First Operation - Non-contiguous access of matrix2
     before=clock();
     for(int j = 0; j < length; j++){
         for (int k = 0; k < length; k++){
@@ -42,11 +42,11 @@ int main(){
     difference=clock()-before;
     msec = difference * 1000 / CLOCKS_PER_SEC;
 
-    printf("Loop 1 time: %d ms\n", msec);
+    printf("Operation 1 time: %d ms\n", msec);
 
 
 
-    // Second loop - Continuous access of matrix2
+    // Second Operation - Contiguous access of matrix2
     before=clock();
     for(int j = 0; j < length; j++){
         for (int k = 0; k < length; k++){
@@ -62,6 +62,6 @@ int main(){
     difference=clock()-before;
     msec = difference * 1000 / CLOCKS_PER_SEC;
 
-    printf("Loop 2 time: %d ms\n", msec);
+    printf("Operation 2 time: %d ms\n", msec);
     return 0;
 }
