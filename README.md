@@ -1,7 +1,6 @@
 # Computing Essentials for Scientists and Engineers
 
-These classes aim to teach concepts and habits that make programming a more simplified and comfortable process for those who did not study
-computer science. 
+These classes aim to teach concepts and habits that make programming a more simplified and comfortable process for those who did not study computer science. 
 
 The presenter will use slideshows and read/write/manipulate files and programs during the sessions. Class participation is encouraged. 
 
@@ -81,3 +80,9 @@ Learning Outcomes:
 - Understand that modern software development is collaborative and built upon the work of others. 
 - Understand the importance of version control and feel comfortable with basic git commands. 
 - Want to use git and Github for your future projects.
+
+## Software Carpentry ##
+
+https://software-carpentry.org/lessons/
+
+A recommended resource to learn basic computing practices.
