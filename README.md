@@ -34,27 +34,28 @@ Learning Outcomes:
 
 - Understand the common basis of all files and that interpretation is contextual. 
 - Know the directory structure of your OS
-- Know where your programs are or should be.  
+- Know where your programs are or should be.
 - Feel comfortable dealing with all file types and place less importance on file extensions.
 - Understand why program installers exist and why you usually don't just download the final program.
 - Know what is happening when you are looking at a 'corrupt' (not actually corrupt) file.
 
-## Session 2 - Programming Languages and Important Selections
+## Session 2 - Programming Languages and Concepts
 
 Content: 
 
 - What is/isn't a programming language? 
-- Compiled vs Interpreted. Common misconceptions.  
-- Programming with and without integrated development environments (IDEs)
-- Low level - C
-- High level - Python/Matlab
-- Multiplatform development - Java
+- Compiled vs Interpreted. Common misconceptions. 
+- Notes about speed
+- CPUs and GPUs
+- Summary of common programming languages and their uses - C, C++, Java, Javascript, Python, Matlab
 - Relational Databases - SQL
+- Web framework vs Content Management System
+- Programming with and without integrated development environments (IDEs)
 
 Learning Outcomes:
 
 - Know what actually happens when a programming language is said to be compiled or interpreted.
-- Understand the context of low and high level languages. 
+- Understand the context of low and high level languages. Choose a language to suit your needs. 
 - Understand the importance of relational databases.
 
 ## Session 3 - Version Control and Collaboration
