@@ -27,6 +27,8 @@ Content:
 - Source code, machine code, and in between. 
 - File types. Everything is binary, it just depends how programs use/interpret it. 
 - The PATH environment variable and calling executables from the terminal/command line.
+- The Python interpreter
+- Pip, the Python package installer.
 - Virtual environments in Python. 
 
 Learning Outcomes:
@@ -35,6 +37,8 @@ Learning Outcomes:
 - Know the directory structure of your OS
 - Know where your programs are or should be.
 - Feel comfortable dealing with all file types and place less importance on file extensions.
+- Know how to use your Python interpreter, and pip, the package installer.
+- Know how to create, activate, and deactivate virtual Python environments.
 - Understand why program installers exist and why you usually don't just download the final program.
 - Know what is happening when you are looking at a 'corrupt' (not actually corrupt) file.
 
@@ -73,13 +77,13 @@ Content:
 	- Cloning
 	- Pulling - Fetch + Merge
 	- Pushing
-	- Remote Branches
+	- Resolving remote conflicts
 
 Learning Outcomes:
 
 - Understand that modern software development is collaborative and built upon the work of others. 
 - Understand the importance of version control and feel comfortable with basic git commands. 
-- Want to use git and Github for your future projects.
+- Want to use Git and Github for your future projects.
 
 ## Software Carpentry ##
 
